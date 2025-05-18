@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-inter: var(--font-inter);
+  --font-roboto: var(--roboto-mono);
+}
+
+@layer base {
+  body {
+    @apply font-inter text-sm;
+  }
+}
