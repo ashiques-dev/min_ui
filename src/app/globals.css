@@ -73,4 +73,7 @@
   *::-webkit-scrollbar {
     display: none;
   }
+  code {
+    @apply font-roboto! text-sm! italic;
+  }
 }

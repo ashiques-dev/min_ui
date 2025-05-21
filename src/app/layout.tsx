@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth" suppressHydrationWarning>
       <body
-        className={`${inter.variable} ${robotoMono.variable} font-inter text-sm bg-background text-foreground width`}
+        className={`${inter.variable} ${robotoMono.variable} antialiased font-inter text-sm bg-background text-foreground width`}
       >
         <ThemeProvider
           attribute="class"

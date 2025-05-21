@@ -12,7 +12,7 @@ const buttonVariants = cva(
           "bg-primary text-background not-disabled:hover:bg-primary/80 not-disabled:focus-visible:bg-primary/80 disabled:opacity-70 not-disabled:hover:animate-scale-up-down not-disabled:focus-visible:animate-scale-up-down",
         outline:
           "border not-disabled:hover:bg-accent not-disabled:focus-visible:bg-accent not-disabled:hover:animate-scale-up-down not-disabled:focus-visible:animate-scale-up-down disabled:bg-accent disabled:opacity-50 ",
-        link: "text-foreground underline-offset-4 not-disabled:hover:underline not-disabled:focus-visible:underline disabled:text-muted disabled:underline",
+        link: "text-foreground underline-offset-4 not-disabled:hover:underline not-disabled:focus-visible:underline disabled:text-danger disabled:underline",
         ghost:
           "bg-accent not-disabled:hover:bg-secondary not-disabled:focus-visible:bg-secondary not-disabled:hover:animate-scale-up-down not-disabled:focus-visible:animate-scale-up-down disabled:bg-secondary disabled:opacity-50",
         secondary:

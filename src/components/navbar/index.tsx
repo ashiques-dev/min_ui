@@ -8,7 +8,7 @@ import { navItemsList } from "../data/navbar";
 export const Navbar = () => {
   return (
     <>
-      <header className="fixed z-50 top-0 width bg-background/60 backdrop-blur-sm">
+      <header className="fixed z-50 top-0 width bg-background/75 backdrop-blur-sm">
         <nav className="h-14 padding border rounded-t-md mt-2 flex items-center justify-between">
           <div className="flex items-end gap-2">
             <Button variant="ghost" size={"icon"} className="lg:hidden">
