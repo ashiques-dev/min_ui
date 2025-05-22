@@ -70,10 +70,13 @@
   .width {
     @apply w-[98%] lg:w-[96%] max-w-[90rem] mx-auto;
   }
-  *::-webkit-scrollbar {
+  /* *::-webkit-scrollbar {
     display: none;
-  }
+  } */
   code {
     @apply font-roboto! text-sm! italic;
+  }
+  .special-text {
+    @apply bg-secondary px-2 py-1 rounded-md inline-flex font-medium text-base mx-1 underline underline-offset-2;
   }
 }

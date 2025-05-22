@@ -46,7 +46,7 @@ export const CodeBlock = ({
   };
 
   return (
-    <div className={cn("relative border rounded-md overflow-hidden bg-accent shadow-md", className)}>
+    <div className={cn("relative border rounded-md overflow-hidden bg-accent shadow-md max-w-4xl", className)}>
       <CopyButton copied={copied} onClick={copyToClipboard} />
       <div className="max-h-96 overflow-auto">
         <SyntaxHighlighter
@@ -88,7 +88,10 @@ export const CodeBlockWithTitle = ({
 
   return (
     <div
-      className={cn("border rounded-md overflow-hidden bg-accent shadow-md", className)}
+      className={cn(
+        "border rounded-md overflow-hidden bg-accent shadow-md max-w-4xl",
+        className
+      )}
     >
       <div className="border-b">
         <div
@@ -119,7 +122,7 @@ export const CodeBlockWithTitle = ({
         language={tabs[activeTab].language}
         highlightLines={tabs[activeTab].highlightLines}
         showLineNumbers={tabs[activeTab].showLineNumbers}
-        className={cn("border-0 rounded-none shadow-none", codeBlockClassName)}
+        className={cn("border-0 rounded-none shadow-none max-w-full", codeBlockClassName)}
       />
     </div>
   );
@@ -168,7 +171,7 @@ export const CodeBlockWithComponent = ({
           </Button>
         </div>
         {preview ? (
-          <div className="min-h-96 border flex items-center justify-center rounded-md relative">
+          <div className="min-h-96 border flex items-center justify-center rounded-md relative max-w-4xl">
             <CopyButton copied={copied} onClick={copyToClipboard} />
             {component}
           </div>

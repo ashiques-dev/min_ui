@@ -41,11 +41,32 @@ export const NavBarItems = () => {
   );
   return (
     <>
+      <Link
+        href={"/"}
+        className={buttonVariants({
+          variant: "link",
+          className: "justify-start",
+        })}
+      >
+        Getting Started
+      </Link>
+      <Link
+        href={"dark-mode"}
+        className={buttonVariants({
+          variant: "link",
+          className: "justify-start",
+        })}
+      >
+        Dark Mode
+      </Link>
       {sortedNavItems.map(({ label, link }, index) => (
         <Link
           key={index}
           href={link}
-          className={buttonVariants({ variant: "link" })}
+          className={buttonVariants({
+            variant: "link",
+            className: "justify-start",
+          })}
         >
           {label}
         </Link>

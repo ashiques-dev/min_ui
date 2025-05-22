@@ -25,7 +25,7 @@ export type TCodeBlockWithComponent = {
   codeBlockWithTitleClassName?: string;
 } & TCodeBlockWithTitle;
 
-export type TNextJsDarkModeList = {
+export type TConfigSteps = {
   tabs: TCode[];
   title: string;
   component?: JSX.Element;
