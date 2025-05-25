@@ -25,7 +25,7 @@ const ConfigSteps = ({
           ) : (
             <CodeBlock {...tabs[0]} />
           )}
-          <div className="absolute -bottom-[2.5px] -left-[2.5px] rotate-45  size-1 bg-danger z-50"></div>
+          <div className="absolute -bottom-[2.5px] -left-[2.5px] rotate-45  size-1 bg-danger z-10"></div>
         </div>
       ))}
     </>

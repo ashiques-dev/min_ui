@@ -70,9 +70,9 @@
   .width {
     @apply w-[98%] lg:w-[96%] max-w-[90rem] mx-auto;
   }
-  /* *::-webkit-scrollbar {
+  *::-webkit-scrollbar {
     display: none;
-  } */
+  }
   code {
     @apply font-roboto! text-sm! italic;
   }
